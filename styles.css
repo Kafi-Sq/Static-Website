@@ -1,0 +1,194 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Khula', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #989a94;
+}
+
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: 3s;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #ebe4de;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    max-width: 50%;
+    justify-content: space-evenly;
+}
+
+li {
+    margin-top: 5px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.icons {
+    cursor: pointer;
+    letter-spacing: 5px;
+    margin: 15px 0;
+    font-size: 25px;
+}
+
+#insta:hover {
+    color: #8a3ab9;
+}
+
+#face:hover {
+    color: #3b5998;
+}
+
+#tweet:hover {
+    color: #1DA1F2;
+}
+
+#you:hover {
+    color: #FF0000;
+}
+
+/* End of header -- Come back for general styling */
+
+main {
+    background-color: #e0cbc4;
+    border-radius: 20px;
+    margin: 200px 200px 100px 200px;
+    display: flex;
+}
+
+.right {
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    flex-basis: 50%;
+}
+
+.right h1 {
+    line-height: 80px;
+    font-size: 100px;
+}
+
+.right h2 {
+    color: #e63946;
+}
+
+.left {
+    flex-basis: 50%;
+}
+
+.left img {
+    display: flex;
+    align-self: center;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+/* End of main --come back for general styling */
+
+#about {
+    background-color: #e63946;
+    height: 700px;
+}
+
+section {
+    display: flex;
+}
+
+.about-right {
+    margin-left: auto;
+    flex-basis: 50%;
+    margin: auto 30px auto 300px;
+}
+
+.about-right img {
+    width: 100%;
+    height: auto;
+}
+
+.about-left {
+    width: 100%;
+    margin: auto 400px auto 0px;
+    flex-basis: 50%;
+}
+
+.about-left h2 {
+    color: wheat;
+    margin: 0;
+    font-size: 30px;
+}
+
+.about-left h1 {
+    color: white;
+    margin: 0;
+    font-size: 50px;
+}
+
+.about-left p {
+    color: white;
+}
+
+/* End of about -- again come back for more styling */
+
+.container {
+    background-color: #e63946;
+}
+
+.gallery {
+    border-radius: 20px;
+    margin: 0 30px;
+    background-color: #131310;
+}
+
+.gallery img {
+    width: 30%;
+    margin: calc(10%/6);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.gallery img:hover {
+    cursor: pointer;
+    box-shadow: 0 0.8em 0.8em -0.2em #e63946;
+}
+
+.gallery h1 {
+    width: 30%;
+    margin: calc(10%/6);
+    margin-top: 0;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 20px;
+    color: #e63946;
+    border-color: #e63946;
+}
+
+#contact {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
